@@ -1,5 +1,0 @@
-# CTS
-### CONCEITOS 
-### HISTÓRIAS
-### FATOS 
-### IDÉIAS 
