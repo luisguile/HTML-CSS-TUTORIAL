@@ -6,10 +6,9 @@
 
 }
 
+/* https://geologyscience.com/wp-content/uploads/2023/04/1884913.jpg */
 body{
-  background-color: #c4f5ee;
-  color: dimgray;
-  align-items: center;
-  justify-content: center;
+margin: 5px;
+padding: 5px;
 }
 
