@@ -15,7 +15,7 @@ algoritmo NUMERO_POS_NEG
             ESCREVA(n1 "É POSITIVO")
             
             SENAO
-            ESCREVA (n1 "é 0")
+              ESCREVA (n1 "é 0")
               
             FIM-SENAO
           FIM-SE
