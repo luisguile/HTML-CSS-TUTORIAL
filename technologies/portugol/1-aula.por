@@ -1,0 +1,41 @@
+
+algoritmo MEDIA_SIMPLES
+
+var
+     		real: p1, p2, p3, nf , pr
+INICIO
+
+		//ENTRADA
+		ESCREVA ("DIGITE O VALOR DE P1") 
+			LEIA (p1)
+
+		ESCREVA ("DIGITE O VALOR DE P2")
+			LEIA (p2)
+
+		ESCREVA ("DIGITE O VALOR DE P4")
+			LEIA (p4)
+
+		// PROCESSAMENTO DE DADOS
+		nf <- ( p1*0.3 + p2*0.3 + p3*0.4 )
+
+		//SAÍDA
+		ESCREVA ("A NOTA FINAL É:" nf) 
+
+//VERIFICACAO REPROVADO
+	SE nf <4   
+	 	ESCREVA ("REPROVADO")
+	SENAO
+
+//VERIFICACAO APROVADO
+	SE nf >= 6 
+		ESCREVA ("APROVADO")
+//VERIFICACAO IFA
+	SENAO
+		ESCREVA("IFA)
+
+
+		FIM-SENAO 
+	FIM- SE
+FIM -SE
+
+FIM
