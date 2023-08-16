@@ -1,5 +1,21 @@
 //======================= exercicio 1 =======================
+//-----------------------------------------------------------------------
 
+DESCRICAO NARRATIVA  
+SOLICITAR O NUMERO AO USUARIO
+GUARDAR O NUMERO NA VARIAVEL X
+SOLICITAR OUTRO NUMERO AO USUARIO
+GUARDAR O NUMERO NA VARIAVEL Y
+
+SOMAR X + Y 
+GUARDAR EM Z 
+
+MULTIPLICAR Z*X
+GUARDAR EM T
+
+MOSTRAR T AO USUARIO 
+
+//-----------------------------------------------------------------------
 algoritmo  NUMERO_SOMADO_E_MULTIPLICADO
 
     var 
@@ -19,6 +35,21 @@ algoritmo  NUMERO_SOMADO_E_MULTIPLICADO
        FIM
 
 //======================= exercicio 2 =======================
+//-----------------------------------------------------------------------
+
+DESCRICAO NARRATIVA  
+SOLICITAR O NUMERO AO USUARIO
+GUARDAR O NUMERO NA VARIAVEL X
+
+SUBTRAIR X-1
+GUARDAR EM Y 
+MOSTRAR AO USUARIO Y
+
+SOMAR EM X+1
+GUARDAR EM Z
+MOSTRAR Z AO USUARIO 
+
+//-----------------------------------------------------------------------
 
 algoritmo ANTECESSOR_SUCESSOR 
 
@@ -39,6 +70,25 @@ algoritmo ANTECESSOR_SUCESSOR
         FIM
 
 // ======================= exercicio 3 =======================
+//-----------------------------------------------------------------------
+
+DESCRICAO NARRATIVA  
+
+SOLICITAR O NUMERO AO USUARIO
+GUARDAR O NUMERO NA VARIAVEL NUMa
+
+SOLICITAR OUTRO NUMERO AO USUARIO
+GUARDAR O NUMERO NA VARIAVEL NUMb
+
+GUARDAR O CONTEUDO DE NUMA EM G
+
+GUARDAR O CONTEUDO DE NUMb EM NUMa
+
+GUARDAR O CONTEUDO DE G EM NUMb
+
+MOSTRAR AO USUARIO NUMa E NUMb
+
+//-----------------------------------------------------------------------
 
 algoritmo INVERSAO_VARIAVEL
 
