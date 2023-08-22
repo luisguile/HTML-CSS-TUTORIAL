@@ -40,6 +40,24 @@ ul{
 li a{
   text-decoration: none;
   margin: 5px 10px;
+  padding-bottom: 45px;
+}
+
+/* li a:hover{
+  border-bottom: solid yellow;
+}  */
+
+li span.borda  {
+
+  border-bottom: aquamarine;
+}
+
+li  span.borda:hover {
+  transition-duration: .2s;
+
+  border-bottom: solid aquamarine;
+  transform: scaleX(1);
+
 }
 
 .wrapper, .wrapper a{
