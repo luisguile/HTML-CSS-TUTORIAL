@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <style>
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      background-color: rgb(59, 54, 54);
+      color: rgb(175, 204, 223);
+    }
+    
+section{
+  display: block;
+}
+
+h2{
+  margin: 20px;
+}
+    h1{
+      margin: 5rem;
+      padding: 0;
+    }
+
+  input{
+    margin-top: 10px;
+    margin-left: 3px ;
+  }
+  input.periodo{
+    margin-top: 0;
+    padding: 0;
+  }
+
+  fieldset{
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+
+  legend{
+    font: bold;
+  }
+
+
+  </style>
+</head>
+<body>
+  
+  <section>
+
+ <h1>CADASTRE-SE</h1>
+
+<h2> Entre com suas informações</h2>
+
+ <div class="main">
+
+<form action="form.php" method="get">
+
+  <fieldset> 
+    <legend>informações pessoais</legend>
+
+    <label for="nome"> Nome</label>
+    <input id="nome" type="text" name="nameUser"> 
+  <br>
+    <label for="mailAdress" > Digite seu Email</label>
+    <input  id="mailAdress" type="email" name="mailUser">
+  <br>
+    <label for="Senha"> Senha</label>
+    <input id="Senha" type="password" name="passwordUser" required>
+  <br>
+
+</fieldset>
+
+<fieldset class="periodo">
+<legend> Newsletter</legend>
+  <label for="news"> assinar nossa newsletter?</label>
+  <input type="checkbox" id="news" >
+<br>
+
+<p>quando você deseja receber?</p>
+  <label for="semanalmente" > semanalmente</label>
+  <input type="radio" id="semanalmente" name="periodo" class="periodo"> 
+
+  <label for="diariamente"> diariamente</label>
+  <input type="radio" id="diariamente" name="periodo" class="periodo"> 
+
+
+  <label for="mensalmente"> mensalmente</label>
+  <input type="radio" id="mensalmente" name="periodo"class="periodo" > 
+<br>
+
+</div>
+
+<input type="submit" value="cadastrar">
+</fieldset>
+
+</form>
+
+</section>
+
+</body>
+</html>
